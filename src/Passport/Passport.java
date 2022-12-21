@@ -1,6 +1,6 @@
 package Passport;
 
-import java.time.LocalDate;
+
 import java.util.Objects;
 
 public class Passport {
@@ -53,6 +53,6 @@ public class Passport {
 
     @Override
     public String toString() {
-        return "Passport:" + " № " + number + ", Ф.И.О. - " + surname + name + patronymic + ", дата рождения - " + date;
+        return "Passport:" + " № " + number + ", Ф.И.О. - " + surname + " " + name + " " + patronymic + ", дата рождения - " + date;
     }
 }
